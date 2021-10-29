@@ -3,8 +3,10 @@ using System;
 namespace MvcTodo.Models
 {
     public class Todo {
-        public int Id;
-        public string Task;
-        public bool Completed;
+        public int Id {get; set;}
+        public string Task {get; set;}
+        public bool Completed {get; set;}
     }
+
+
 }
